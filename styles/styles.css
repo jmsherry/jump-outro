@@ -18,11 +18,9 @@ main {
 .content {
   width: clamp(200px, 50vh, 2500px);
   margin: auto;
-  /* outline: solid; */
 }
 
 .pre-signature {
-  /* line-height: 2; */
   margin-block-end: 3em;
 }
 
