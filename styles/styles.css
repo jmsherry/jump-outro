@@ -1,0 +1,44 @@
+body {
+  color: hsl(0deg, 100%, 100%);
+  background-color: hsl(0deg, 100%, 0%);
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+main {
+  display: grid;
+  place-content: center;
+}
+
+.content {
+  width: clamp(200px, 50vh, 2500px);
+  margin: auto;
+  /* outline: solid; */
+}
+
+.title {
+
+}
+
+.pre-signature {
+  /* line-height: 2; */
+  margin-block-end: 3em;
+}
+
+.signature {
+  margin-block-end: 2em;
+}
+
+.link {
+  font-weight: bold;
+  text-decoration: underline;
+
+  &:hover, &:focus {
+    color: hsl(210, 90%, 40%);
+  }
+}
